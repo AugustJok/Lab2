@@ -48,7 +48,7 @@ img {
 }
 
 p {
-  color: #616161;
+  color: #464646;
 
 }
 
@@ -94,6 +94,9 @@ table {
   cursor: pointer;
   text-align: center;
   font-family: "Courier New", monospace;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #464646;
 }
 
 /* Defining styling for a specific element with an id */
