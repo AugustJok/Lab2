@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+			<link href="styles.css" rel="stylesheet" type="text/css">
+		<title>UI Evaluation</title>
+	</head>
+	
+	<body>
+		<h1>Survey</h1>
+
+		<form method = "post" action = "index.php" name = "survey">
+
+			<br>
+			<br>
+
+			<h2>What do you think of the UI in this <a href="https://www.ubereats.com/">Uber Eats</a> site?</h2>
+			
+			<br>
+			<br>
+
+			<a href = "https://www.ubereats.com/"> 
+				<img src="images/UberEats.png" alt="https://www.ubereats.com/" width="500" height="500">
+			</a>
+
+			<br>
+			<br>
+
+			<div class = "question">
+			<p>
+				<Strong>How likely are you to return to this website in the future?:</Strong> <br>
+
+				<select name = "Likeness">
+					<option value = "Very Likely" selected = "selected">Very Likely</option>
+					<option value = "Likely">Likely</option>
+					<option value = "Undecided">Undecided</option>
+					<option value = "Unlikely">Unlikely</option>
+					<option value = "Very Unlikely">Very Unlikely</option>
+				</select>
+			</p>
+			</div>
+
+			<br>
+			<br>
+				
+			<div class = "question">
+			<p>
+				<Strong>Is this a good UI?:</Strong> <br>
+				
+				<label>Yes:
+					<input name = "good" type = "radio" value = "Yes" checked>
+				</label> <br>
+			
+				<label>No:
+					<input name = "good" type = "radio" value = "No">
+				</label> <br>
+			
+			</p>
+			
+			<p><label>Briefly describe why:
+				<input name = "question" type = "text" size = "25">
+			</label></p>
+			</div>
+
+			<br>
+	        <br>
+
+			<div class = "question">
+			<p>
+				<Strong>What did this website do correctly?:</strong> <br>
+				
+				<label>Proper functionality:
+					<input name = "thingsliked" type = "checkbox" value = "Proper functionality">
+				</label> <br>
+				
+				<label>Consistency:
+					<input name = "thingsliked" type = "checkbox" value = "Consistency">
+				</label> <br>
+				
+				<label>Efficiency:
+					<input name = "thingsliked" type = "checkbox" value = "Efficiency">
+				</label> <br>
+				
+				<label>Usability:
+					<input name = "thingsliked" type = "checkbox" value = "Usability">
+				</label> <br>
+				
+				<label>Reliability:
+					<input name = "thingsliked" type = "checkbox" value = "Reliability">
+				</label> <br>
+				
+				<label>Security and Data integrity:
+					<input name = "thingsliked" type = "checkbox" value = "Security and Data integrity">
+				</label> <br>
+			</p>
+			</div>
+
+			<br>
+			<br>
+			
+			<div class = "question">
+			<p><label>Comments:<br>
+				<textarea name = "comments" rows = "4" cols = "36">Comment Here.</textarea>
+			</label></p>
+			</div>
+
+			<br>
+			<br>
+			
+			<button id="submitButton" type="button" class="block">
+				SUBMIT your questionnaire
+			</button>
+
+		</form>
+
+		<footer>
+			<p><i>Website designed by: August</i></p>
+		</footer> 
+
+	</body>
