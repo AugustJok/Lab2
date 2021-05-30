@@ -2,13 +2,13 @@
 
 /* Style the tab */
 h1 {
-  font-family: "Lucida Console", monospace;
+  font-family: "Helvetica", Sans-serif;
   color: blue;
   text-align: center
 }
 
 h3 {
-  font-family: "Lucida Console", monospace;
+  font-family: "Helvetica", Sans-serif;
   color: blue;
   text-align: center
 }
@@ -27,7 +27,7 @@ body{
   border: 2px solid #ccc;
   border-color: blue;
   background-color: #f1f1f1;
-  font-family: "Lucida Console", monospace;
+  font-family: "Helvetica", Sans-serif;
   text-align: center
 
 }
@@ -41,7 +41,7 @@ body{
   cursor: pointer;
   padding: 14px 10px;
   transition: 0.3s;
-  font-family: "Lucida Console", monospace;
+  font-family: "Helvetica", Sans-serif;
 }
 
 /* Change background color of buttons on hover */
@@ -61,5 +61,5 @@ body{
   padding: 6px 12px;
   border: 1px solid blue;
   border-top: none;
-  font-family: "Monaco", monospace;
+  font-family: "Helvetica", Sans-serif;
 }
